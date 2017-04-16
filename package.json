@@ -1,17 +1,20 @@
 {
   "name": "ember-json-stringify-safe-shim",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "json-stringify-safe shim for ember-cli",
   "keywords": [
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Toran Billups (https://github.com/toranb)",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ember-redux/ember-json-stringify-safe-shim.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
@@ -39,6 +42,7 @@
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.13.0-beta.1",
     "ember-welcome-page": "^3.0.0",
+    "json-stringify-safe": "^5.0.1",
     "loader.js": "^4.2.3"
   },
   "engines": {
