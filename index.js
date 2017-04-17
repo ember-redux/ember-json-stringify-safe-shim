@@ -7,7 +7,7 @@ const path = require('path');
 module.exports = {
   name: 'json-stringify-safe',
   treeForAddon (tree) {
-    const stringifyPath = path.dirname(require.resolve('json-stringify-safe/stringify.js'));
+    const stringifyPath = path.dirname(require.resolve('json-stringify-safe-es/src/stringify.js'));
     let stringifyTree = this.treeGenerator(stringifyPath);
 
     if (!tree) {
