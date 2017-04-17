@@ -1,7 +1,7 @@
 module.exports = {
   afterInstall: function () {
     return this.addPackagesToProject([
-      {name: 'json-stringify-safe-es', target: '0.0.2'}
+      {name: 'json-stringify-safe-es', target: '0.0.3'}
     ])
   },
 
