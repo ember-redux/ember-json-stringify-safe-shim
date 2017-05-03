@@ -1,6 +1,6 @@
 {
   "name": "ember-json-stringify-safe-shim",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "json-stringify-safe shim for ember-cli",
   "keywords": [
     "ember-addon"
